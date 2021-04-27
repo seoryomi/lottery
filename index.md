@@ -30,6 +30,7 @@ function aaa() {
 </script>
 <h1> ٩(๑• ₃ -๑)۶♥ 아수라 발발타... 부자가 되고 싶니?</h1>
 <h2> 뚝딱 나온다! 연금복권 번호! </h2>
+<iframe width="560" height="315" src="https://youtu.be/3zwJBPYWCq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2> 이거이 니 정주영이고! 이병철이야! </h2>
 <input id="button1" type="button" onclick="aaa()" value="고니야 그 패 한번 쥐어보라" style="width:300px;height:50px;font-size:25px;">
 <br/><br/>
