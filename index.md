@@ -28,7 +28,7 @@ function aaa() {
 	document.getElementById('ddd').innerHTML = sec;
 }
 </script>
-<h1> ٩(๑• ₃ -๑)۶ 아수라 발발타... 부자가 되고 싶니?</h1>
+<h1> ٩(๑• ₃ -๑)۶아수라발발타 부자가 되고 싶니?</h1>
 <h2> 뚝딱 나온다!♥ 연금복권 번호! </h2>
 
 <img src="https://user-images.githubusercontent.com/69951427/116186070-e1fa3380-a75d-11eb-9ee6-5c7e47f95804.gif" width="100%">
