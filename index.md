@@ -31,7 +31,7 @@ function aaa() {
 <h1> ٩(๑• ₃ -๑)۶♥ 아수라 발발타... 부자가 되고 싶니?</h1>
 <h2> 뚝딱 나온다! 연금복권 번호! </h2>
 
-![이병철정주영](https://user-images.githubusercontent.com/69951427/116186070-e1fa3380-a75d-11eb-9ee6-5c7e47f95804.gif)
+<img src="https://user-images.githubusercontent.com/69951427/116186070-e1fa3380-a75d-11eb-9ee6-5c7e47f95804.gif" width="40%">
 
 <h2> 이거이 니 정주영이고! 이병철이야! </h2>
 <input id="button1" type="button" onclick="aaa()" value="너, 패 한번 쥐어보라" style="width:300px;height:50px;font-size:25px;">
