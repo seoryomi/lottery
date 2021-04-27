@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<script>
 
-You can use the [editor on GitHub](https://github.com/seoryomi/lottery/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+function aaa() {
+	fir = new Array(999999);
+	sec = new Array(1);
+	for (i = 0; i < 999999; i++) fir[i] = i;
+	for (i = 0; i < 1; i++) {
+		ran = parseInt(Math.random()*fir.length);
+		sec[i] = fir[ran];
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seoryomi/lottery/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+		for (h = fir.length; h; h -= 1) {
+			j = Math.floor(Math.random() * h);
+			x = fir[h - 1];
+			fir[h - 1] = fir[j];
+			fir[j] = x;
+		}
+	}
+	for (i = 0; i < 6; i++) {
+		for (j = 0; j <= i; j++) {
+			if(sec[i] <= sec[j]) {
+				k = sec[i];
+				sec[i] = sec[j];
+				sec[j] = k;
+			}
+		}
+	}
+	document.getElementById('ddd').innerHTML = sec;
+}
+</script>
+<h1> ٩(๑• ₃ -๑)۶♥ 아수라 발발타... 부자가 되고 싶니?</h1>
+<h2> 뚝딱 나온다! 연금복권 번호! </h2>
+<img src = "정주영이병철.png" width = 20%>
+<h2> 이거이 니 정주영이고! 이병철이야! </h2>
+<input id="button1" type="button" onclick="aaa()" value="고니야 그 패 한번 쥐어보라" style="width:300px;height:50px;font-size:30px;">
+<br/><br/>
+<div id="ddd" style="font-size:30px;border:1px solid;width:300px;height:50px;text-align:center;padding:10px;"></div>
+</html>
